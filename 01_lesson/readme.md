@@ -4,4 +4,4 @@
 
 
 ### video demo:
-<video controls src="demo/vid_demo.mp4" title="Title"></video>
+[![Click here to watch full video demo](demo/img_demo.png)](https://youtu.be/ySSX-YnZ_wI)
