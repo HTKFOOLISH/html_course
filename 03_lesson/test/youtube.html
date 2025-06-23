@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+    <style>
+      hr {
+        border: none;
+      }
+
+      .search-bar {
+        width: 300px;
+        height: 30px;
+        border-radius: 15px;
+        border: 1px solid #ccc;
+        padding: 5px;
+        font-size: 16px;
+      }
+
+      .thumbnail {
+        width: 300px;
+        display: block;
+        border-radius: 10px;
+      }
+
+      .channel-profile-pics {
+        margin: 2px 0 12px 0;
+        display: inline-block;
+        vertical-align: top;
+        width: 40px;
+        height: 40px;
+      }
+
+      .channel-profile-pic {
+        margin: 0;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+      }
+
+      .video-title {
+        margin: 0;
+        font-size: 1.17rem;
+        font-weight: bold;
+        max-width: 255px;
+        display: inline-block;
+        vertical-align: middle;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .video-preview {
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+      }
+      .video-author,
+      .video-stats {
+        margin: 0 auto;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <input class="search-bar" type="text" placeholder="Search" />
+    <hr />
+
+    <div class="video-preview">
+      <img class="thumbnail" src="thumbnails/thumbnail-1.jpg" />
+      <p class="video-title">Terminal for Linux and Mac</p>
+      <p class="video-author">
+        Modern terminal built with Rust and AI built-in to improve developer
+        productivity
+      </p>
+      <p class="video-stats"><strong>Được tài trợ</strong> &#183; Wrap</p>
+    </div>
+
+    <div class="video-preview">
+      <img class="thumbnail" src="thumbnails/thumbnail-2.avif" />
+      <div class="channel-profile-pics">
+        <img
+          class="channel-profile-pic"
+          src="channel-profile-pics/channel-1.jpg"
+        />
+      </div>
+      <p class="video-title">
+        Trận đấu danh dự CS2 với châm ngôn "Thắng làm vua, thua thế nào được"
+        giữa 2 tổ đội ...
+      </p>
+      <p class="video-author">MixiGaming</p>
+      <p class="video-stats">14&nbsp;N lượt xem &#183; 43 phút trước</p>
+    </div>
+  </body>
+
+</html>
