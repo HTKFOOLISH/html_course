@@ -3,50 +3,29 @@
   <head>
     <title>YouTube.com Clone</title>
     <style>
-      hr {
-        border: none;
-      }
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-      .search-bar {
-        width: 300px;
-        height: 30px;
-        border-radius: 15px;
-        border: 1px solid #ccc;
-        padding: 5px;
-        font-size: 16px;
+      p {
+        font-family: Roboto, Arial;
+        margin-top: 0;
+        margin-bottom: 0;
       }
 
       .thumbnail {
         width: 300px;
         display: block;
-        border-radius: 10px;
       }
 
-      .channel-profile-pics {
-        margin: 2px 0 12px 0;
-        display: inline-block;
-        vertical-align: top;
-        width: 40px;
-        height: 40px;
-      }
-
-      .channel-profile-pic {
-        margin: 0;
-        width: 36px;
-        height: 36px;
-        border-radius: 50%;
+      .search-bar {
+        display: block;
       }
 
       .video-title {
-        margin: 0;
-        font-size: 1.17rem;
-        font-weight: bold;
-        max-width: 255px;
-        display: inline-block;
-        vertical-align: middle;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
+        margin-top: 0;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 12px;
       }
 
       .video-preview {
@@ -55,42 +34,73 @@
         vertical-align: top;
         margin-right: 15px;
       }
+
+      .channel-picture {
+        display: inline-block;
+        width: 50px;
+        vertical-align: top;
+      }
+
+      .video-info {
+        display: inline-block;
+        width: 200px;
+      }
+
+      .profile-picture {
+        width: 40px;
+        border-radius: 50%;
+      }
+
+      .thumbnail-row {
+        margin-bottom: 12px;
+      }
+
       .video-author,
       .video-stats {
-        margin: 0 auto;
-        display: block;
+        font-size: 12px;
+        color: rgb(96, 96, 96);
+      }
+
+      .video-author {
+        margin-bottom: 4px;
       }
     </style>
   </head>
   <body>
     <input class="search-bar" type="text" placeholder="Search" />
-    <hr />
 
     <div class="video-preview">
-      <img class="thumbnail" src="thumbnails/thumbnail-1.jpg" />
-      <p class="video-title">Terminal for Linux and Mac</p>
-      <p class="video-author">
-        Modern terminal built with Rust and AI built-in to improve developer
-        productivity
-      </p>
-      <p class="video-stats"><strong>Được tài trợ</strong> &#183; Wrap</p>
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp" />
+      </div>
+      <div>
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channel-1.jpeg" />
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+          <p class="video-author">Marques Brownlee</p>
+          <p class="video-stats">3.4M views &#183; 6 months ago</p>
+        </div>
+      </div>
     </div>
 
     <div class="video-preview">
-      <img class="thumbnail" src="thumbnails/thumbnail-2.avif" />
-      <div class="channel-profile-pics">
-        <img
-          class="channel-profile-pic"
-          src="channel-profile-pics/channel-1.jpg"
-        />
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-2.webp" />
       </div>
-      <p class="video-title">
-        Trận đấu danh dự CS2 với châm ngôn "Thắng làm vua, thua thế nào được"
-        giữa 2 tổ đội ...
-      </p>
-      <p class="video-author">MixiGaming</p>
-      <p class="video-stats">14&nbsp;N lượt xem &#183; 43 phút trước</p>
+      <div>
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channel-2.jpeg" />
+        </div>
+        <div class="video-info">
+          <p class="video-title">Try Not To Laugh Challenge #9</p>
+          <p class="video-author">Markiplier</p>
+          <p class="video-stats">19M views &#183; 4 years ago</p>
+        </div>
+      </div>
     </div>
   </body>
-
 </html>
