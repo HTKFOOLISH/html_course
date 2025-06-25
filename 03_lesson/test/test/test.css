@@ -1,107 +1,51 @@
-/* hr{
-    border: none;
+.title-content {
+  text-align: center;
 }
 
-.red-square {
-    display: block;
-    margin: auto;
-    width: 100px;
-    height: 100px;
-    background-color: red;
-}
-
-.green-circle {
-    display: block;
-    margin: auto;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: green;
-}
-
-.service-form {
-    border: 1px solid #989898;
-    padding: 20px;
-    width: 40%;
-    margin: auto;
-}
-
-.ytb-install {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    width: 40%;
-    margin: auto;
-}
-
-.ytb-install h2 {
-    color: #fff;
-    font-size: 1.8em;
-}
-
-.ytb-install p {
-    color: #ccc;
-    font-size: larger;
-} */
-
-p {
-  font-family: Roboto, Arial;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.thumbnail {
-  width: 300px;
+.exercise-img {
+  width: 50%;
   display: block;
+  margin: auto;
 }
 
-.search-bar {
-  font-size: 20px;
-  margin: 12px 0px;
-  display: block;
+.Ex-11a {
+  display: grid;
+  grid-template-columns: 200px 75px;
+  background-color: #ccc;
 }
 
-.video-title {
-  margin-top: 0;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  margin-bottom: 12px;
+.a-col1 {
+  background-color: lightblue;
 }
 
-.video-preview {
-  width: 300px;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 15px;
+.a-col2 {
+  background-color: lightpink;
 }
 
-.channel-picture {
-  display: inline-block;
-  width: 50px;
-  vertical-align: top;
+.Ex-11b {
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
 }
 
-.video-info {
-  display: inline-block;
-  width: 200px;
+.b-coil1 {
+  background-color: lightblue;
 }
 
-.profile-picture {
-  width: 40px;
-  border-radius: 50px;
+.b-coil2 {
+  background-color: lightpink;
+}
+.b-coil3 {
+  background-color: lightblue;
 }
 
-.thumbnail-row {
-  margin-bottom: 12px;
+.Ex-11c {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+  background-color: #ccc;
 }
 
-.video-author,
-.video-stats {
-  font-size: 12px;
-  color: rgb(96, 96, 96);
-}
-
-.video-author {
-  margin-bottom: 4px;
+.c-coil {
+  background-color: lightpink;
 }
