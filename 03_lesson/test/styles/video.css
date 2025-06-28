@@ -26,13 +26,11 @@
   display: inline-block;
   width: 50px;
   vertical-align: top;
-  /* background-color: #ccc; */
 }
 
 .video-info {
   display: inline-block;
   width: 200px;
-  /* background-color: #ccc; */
 }
 
 .profile-picture {
