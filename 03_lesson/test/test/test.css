@@ -1,3 +1,16 @@
+/* -- General styles -- */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 50px 0;
+}
+
 .title-content {
   text-align: center;
 }
@@ -8,44 +21,154 @@
   margin: auto;
 }
 
-.Ex-11a {
-  display: grid;
-  grid-template-columns: 200px 75px;
-  background-color: #ccc;
+/* -- Exercise 12e styles -- */
+
+.Ex-12e {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 300px;
+  margin: 40px auto;
 }
 
-.a-col1 {
-  background-color: lightblue;
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 12px;
 }
 
-.a-col2 {
-  background-color: lightpink;
+.notifications {
+  background-color: rgb(49, 109, 245);
+  color: white;
+  border-radius: 25px;
+  padding: 3px 10px;
+  font-weight: bold;
 }
 
-.Ex-11b {
-  display: grid;
-  grid-template-columns: 50px 1fr 75px;
+/* -- Exercise 12g styles -- */
+.Ex-12g {
+  width: 350px;
+  border: 1px solid #ccc;
+  margin: 50px auto;
+  box-shadow: 2px 3px #ccc;
+  border-radius: 4px;
 }
 
-.b-coil1 {
-  background-color: lightblue;
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
 }
 
-.b-coil2 {
-  background-color: lightpink;
-}
-.b-coil3 {
-  background-color: lightblue;
-}
-
-.Ex-11c {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 20px;
-  row-gap: 10px;
-  background-color: #ccc;
+.profile-picture {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  object-fit: cover;
 }
 
-.c-coil {
-  background-color: lightpink;
+.info {
+  width: 200px;
+}
+
+.info p {
+  margin: 0;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.handle {
+  color: grey;
+  margin-bottom: 5px;
+}
+
+.category {
+  color: grey;
+  font-size: small;
+}
+
+.follow-button {
+  /* height: 30px; */
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.follow-button:hover {
+  background-color: rgb(79, 134, 237);
+  box-shadow: 2px 1px rgb(56, 109, 207);
+}
+
+.follow-button:active {
+  background-color: rgba(100, 148, 237, 0.781);
+}
+
+/* -- Exercise 12f styles -- */
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(120, 82, 178);
+  color: white;
+  padding: 0 15px;
+}
+
+.left-section {
+  font-weight: bold;
+}
+
+.middle-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  height: 30px;
+  max-width: 900px;
+  min-width: 500px;
+  margin: 12px 0;
+  border: none;
+  border-radius: 20px;
+}
+
+.right-section {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.download-button {
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 2px;
+  background-color: rgb(120, 82, 178);
+  color: white;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.download-button:hover {
+  background-color: white;
+  color: rgb(120, 82, 178);
+}
+
+.download-button:active {
+  opacity: 0.7;
 }
