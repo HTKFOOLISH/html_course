@@ -1,5 +1,7 @@
 # Exercise 12
-![alt text](imgs/exercise_img_12.png)
+![alt text](imgs/exercise_img_13_a_b.png)
+![alt text](imgs/exercise_img_13_c_d_e.png)
+![alt text](imgs/exercise_img_13_f_g.png)
 
 - Click the image to see **html** file  
 <a href="test.html">
