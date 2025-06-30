@@ -4,6 +4,11 @@
   font-family: Roboto, Arial;
 }
 
+/* -- body setting for exercise 4 */
+body {
+  height: 5000px;
+}
+
 .header-content {
   display: flex;
   flex-direction: column;
@@ -26,193 +31,229 @@ hr {
   margin: 40px 20%;
 }
 
-/* -- Exercise 13a Style -- */
-.container-13a {
-  display: flex;
-  margin: 40px auto;
-  height: 50px;
-  width: 300px;
+/* -- Exercise 14a style -- */
+.container-14a {
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  border: 1px solid green;
+  position: relative;
 }
 
-.item-13a-1 {
-  background-color: lightpink;
+.bottom-right {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+}
+
+/* -- Exercise 14b style -- */
+.container-14b {
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  border: 1px solid green;
+  position: relative;
+}
+
+.right-sidebar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
   width: 100px;
+  background-color: green;
+  color: white;
+}
+
+/* -- Exercise 14c style -- */
+.container-14c {
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  border: 1px solid green;
+  position: relative;
+}
+
+.cover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+  align-content: center;
+}
+
+/* -- Exercise 14d style -- */
+.container-14d {
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  border: 1px solid green;
+  position: relative;
+}
+
+.right-sidebar-14d {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  background-color: green;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.item-13a-1 .item1-13a {
-  background-color: black;
-  color: white;
-}
-
-.item-13a-2 {
-  background-color: lightblue;
-  width: 200px;
-}
-
-/* -- Exercise 13b style -- */
-.container-13b {
+.modal {
   width: 300px;
-  height: 50px;
+  background-color: white;
+  color: black;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.modal-title {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.modal-content {
+  margin-bottom: 12px;
+}
+
+/* -- Exercise 14e style -- */
+.container-14e {
+  width: 500px;
+  height: 60px;
+  margin: 50px auto;
+  border: 1px solid green;
+  position: relative;
+}
+
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+
   display: flex;
-  margin: 40px auto;
-}
-
-.column-13b-1 {
-  background-color: lightpink;
-  width: 100px;
-}
-
-.column-13b-2 {
-  background-color: lightblue;
-  width: 200px;
-}
-
-.row2-12b {
-  display: flex;
-  flex: 1;
+  align-items: center;
   justify-content: space-between;
-  align-items: center;
+  padding: 10px 50px;
 }
 
-.row2-13b-2 {
-  background-color: black;
-  color: white;
-}
-
-/* -- Exercirse 13c, 13d and 13e style -- */
-.container-13cd {
-  width: 400px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
-  margin: 40px auto;
-  padding: 5px;
-}
-
-.row1-13cd {
-  text-transform: uppercase;
-  color: rgb(120, 120, 120);
-  margin-bottom: 15px;
-  font-size: 14px;
-}
-
-.row2-13cd {
+.left-section {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
 }
 
-.column1-13cd {
-  margin-right: 10px;
-}
-
-.profile-image {
-  width: 50px;
-  height: 50px;
+.profile-picture {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.column2-13cd {
-  flex: 1;
-}
-
-.nested-row1 {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 3px;
-  font-size: 18px;
-}
-
-.nested-column1 {
+.name {
   text-transform: capitalize;
   font-weight: bold;
 }
 
-.nested-column2 {
-  font-size: 14px;
-  color: rgb(120, 120, 120);
-}
-
-.nested-row2 {
+.add-friend {
+  background-color: rgb(24, 119, 242);
+  color: white;
+  border: none;
+  text-transform: capitalize;
   font-weight: bold;
-  margin-bottom: 5px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-right: 3px;
 }
 
-.nested-row3 {
-  color: rgb(120, 120, 120);
+.message {
+  background-color: rgb(230, 230, 230);
+  border: none;
+  text-transform: capitalize;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: bold;
 }
 
-/* -- Excercise 13f and 13g style -- */
-.tweet {
-  width: 430px;
-  border: 1px dashed #ccc;
-  margin: 40px auto;
-  padding: 10px;
-  display: flex;
+/* -- Exercise 14f style -- */
+.container-14f {
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  border: 1px solid green;
+  position: relative;
 }
 
-.profile-picture-column {
-  margin-right: 20px;
+.sidebar1 {
+  background-color: rgb(33, 33, 33);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px 10px 0 10px;
 }
 
-.profile-picture {
-  width: 60px;
-  height: 60px;
+.image {
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   object-fit: cover;
+  margin-bottom: 10px;
 }
 
-.tweet-column {
-  flex: 1;
+.sidebar2 {
+  background-color: rgb(55, 55, 55);
+  position: absolute;
+  left: 70px;
+  top: 0;
+  bottom: 0;
+  width: 150px;
+  padding: 15px 15px 0 15px;
 }
 
-.tweet-header {
+.the-header {
   display: flex;
-  margin-bottom: 5px;
-}
-
-.tweet-author {
-  font-weight: bold;
-  margin-right: 5px;
-}
-
-.tweet-author-handle {
-  color: rgb(111, 111, 111);
-}
-
-.tweet-content {
-  margin-bottom: 15px;
-  line-height: 20px;
-}
-
-.video-preview {
-  display: flex;
+  justify-content: space-between;
   align-items: center;
-  border: 1px solid rgb(200, 200, 200);
-  border-radius: 15px;
-  overflow: hidden;
+  margin-bottom: 10px;
 }
 
-.thumbnail-column {
-  width: 100px;
-  height: 100px;
-  background-color: #ccc;
-  margin-right: 10px;
+.the-name {
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
-.video-info-column {
-  flex: 1;
+.create-new {
+  color: rgb(150, 150, 150);
+  font-size: 25px;
 }
 
-.video-website {
-  color: rgb(111, 111, 111);
-  margin-bottom: 3px;
-}
-
-.video-title {
-  line-height: 22px;
+.channel {
+  color: rgb(150, 150, 150);
+  margin-bottom: 16px;
 }
