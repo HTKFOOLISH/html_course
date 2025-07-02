@@ -22,17 +22,6 @@
   grid-template-columns: 50px 1fr;
 }
 
-.channel-picture {
-  display: inline-block;
-  width: 50px;
-  vertical-align: top;
-}
-
-.video-info {
-  display: inline-block;
-  width: 200px;
-}
-
 .profile-picture {
   width: 40px;
   border-radius: 50%;
@@ -40,6 +29,7 @@
 
 .thumbnail-row {
   margin-bottom: 12px;
+  position: relative;
 }
 
 .video-author,
@@ -50,4 +40,16 @@
 
 .video-author {
   margin-bottom: 4px;
+}
+
+.video-time {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 2px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
 }
