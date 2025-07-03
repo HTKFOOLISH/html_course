@@ -4,11 +4,6 @@
   font-family: Roboto, Arial;
 }
 
-/* -- body setting for exercise 4 */
-body {
-  height: 5000px;
-}
-
 .header-content {
   display: flex;
   flex-direction: column;
@@ -31,229 +26,132 @@ hr {
   margin: 40px 20%;
 }
 
-/* -- Exercise 14a style -- */
-.container-14a {
-  width: 500px;
-  height: 500px;
-  margin: 50px auto;
-  border: 1px solid green;
+/* -- Exercise 15a style -- */
+.container-15 {
   position: relative;
-}
-
-.bottom-right {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
-  color: white;
-}
-
-/* -- Exercise 14b style -- */
-.container-14b {
-  width: 500px;
-  height: 500px;
   margin: 50px auto;
-  border: 1px solid green;
-  position: relative;
+  width: 700px;
+  height: 300px;
+  border: 1px solid #ccc;
 }
 
-.right-sidebar {
+.button-close {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 100px;
-  background-color: green;
-  color: white;
-}
-
-/* -- Exercise 14c style -- */
-.container-14c {
-  width: 500px;
-  height: 500px;
-  margin: 50px auto;
-  border: 1px solid green;
-  position: relative;
-}
-
-.cover {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  background-color: black;
-  color: white;
-  text-align: center;
-  align-content: center;
-}
-
-/* -- Exercise 14d style -- */
-.container-14d {
-  width: 500px;
-  height: 500px;
-  margin: 50px auto;
-  border: 1px solid green;
-  position: relative;
-}
-
-.right-sidebar-14d {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 100px;
-  background-color: green;
-  color: white;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.modal {
-  width: 300px;
-  background-color: white;
-  color: black;
-  padding: 15px;
-  border-radius: 5px;
-}
-
-.modal-title {
-  text-transform: capitalize;
-  font-weight: bold;
-  font-size: 24px;
-  margin-bottom: 12px;
-}
-
-.modal-content {
-  margin-bottom: 12px;
-}
-
-/* -- Exercise 14e style -- */
-.container-14e {
-  width: 500px;
-  height: 60px;
-  margin: 50px auto;
-  border: 1px solid green;
-  position: relative;
-}
-
-.header {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 50px;
-}
-
-.left-section {
-  display: flex;
-  align-items: center;
-}
-
-.profile-picture {
+  top: 15px;
+  right: 15px;
   width: 40px;
   height: 40px;
-  margin-right: 5px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
   border-radius: 50%;
   object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.name {
-  text-transform: capitalize;
-  font-weight: bold;
-}
-
-.add-friend {
-  background-color: rgb(24, 119, 242);
-  color: white;
-  border: none;
-  text-transform: capitalize;
-  font-weight: bold;
-  padding: 8px 12px;
-  border-radius: 6px;
-  margin-right: 3px;
-}
-
-.message {
-  background-color: rgb(230, 230, 230);
-  border: none;
-  text-transform: capitalize;
-  padding: 8px 12px;
-  border-radius: 6px;
-  font-weight: bold;
-}
-
-/* -- Exercise 14f style -- */
-.container-14f {
-  width: 500px;
-  height: 500px;
-  margin: 50px auto;
-  border: 1px solid green;
-  position: relative;
-}
-
-.sidebar1 {
-  background-color: rgb(33, 33, 33);
+/* -- Exercise 15b style -- */
+.bottom-right {
   position: absolute;
-  top: 0;
+  bottom: 10px;
+  right: 10px;
+  width: 160px;
+  height: 90px;
+  background-color: gray;
+}
+
+/* -- Exercise 15c style -- */
+.frame {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 160px;
+  height: 90px;
+  background-color: gray;
+}
+
+.close {
+  position: absolute;
+  top: -9px;
+  left: -9px;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -- Exercise 15d style -- */
+.time {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  color: white;
+  background-color: black;
+  padding: 2px 4px;
+  font-size: 12px;
+  border-radius: 2px;
+}
+
+/* -- Exercise 15e style -- */
+.product {
+  position: relative;
+  display: inline-block;
+  margin: 0 200px;
+}
+
+.sale-off {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  background-color: black;
+  color: white;
+  padding: 8px 12px;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+
+}
+
+/* -- Exercise 15e style -- */
+.bottom-overlay {
+  position: absolute;
   bottom: 0;
   left: 0;
-  padding: 10px 10px 0 10px;
-}
-
-.image {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 10px;
-}
-
-.sidebar2 {
-  background-color: rgb(55, 55, 55);
-  position: absolute;
-  left: 70px;
-  top: 0;
-  bottom: 0;
-  width: 150px;
-  padding: 15px 15px 0 15px;
-}
-
-.the-header {
+  right: 0;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.8);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
 }
 
-.the-name {
-  color: white;
-  font-size: 14px;
-  text-transform: uppercase;
+.add-to-cart {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-.create-new {
-  color: rgb(150, 150, 150);
-  font-size: 25px;
+.add-to-cart:hover {
+  opacity: 0.6;
+  font-weight: 600;
+  border: none;
 }
 
-.channel {
-  color: rgb(150, 150, 150);
-  margin-bottom: 16px;
+.add-to-cart:active {
+  transform: scale(0.85);
+  opacity: 0.8;
+  font-weight: bold;
 }
