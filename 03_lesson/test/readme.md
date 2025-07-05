@@ -1,7 +1,6 @@
-# Exercise 15
-![alt text](imgs/exercise_img_15_a_b.png)
-![alt text](imgs/exercise_img_15_c_d.png)
-![alt text](imgs/exercise_img_15_e.png)
+# Exercise 16
+![Exercise 16's image]("https://github.com/user-attachments/assets/3eba37c0-5f0f-4a7e-8c15-ef441b9e08c7")
+https://github.com/user-attachments/assets/c22e77bc-7a4c-45c2-9d9d-83189b5bc4ec
 
 - Click the image to see **html** file  
 <a href="test.html">
@@ -12,6 +11,3 @@
 <a href="test.css">
     <img src="imgs/logo_css.png" alt="test.css" width="200px" style="background-color: white; margin:0 25% 0 25%;">
 </a>
-
-## Note:  
-More information here: [**CSS Layout - The position Property**](https://www.w3schools.com/css/css_positioning.asp)
