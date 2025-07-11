@@ -29,4 +29,4 @@ cd html_course
 - mail: khaihtk2004@gmail.com
 - phone: 0369217008
 - để lại lời nhắn để mình biết: 
-    - [tên] - vấn đề thắc mắc
+    - [tên] - vấn đề thắc mắc hoặc góp ý.
